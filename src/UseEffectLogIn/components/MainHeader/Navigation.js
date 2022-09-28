@@ -13,12 +13,12 @@ const Navigation = () => {
       <ul>
         {ctx.isLoggedIn && (
           <li>
-            <a>Users</a>
+            <p>Users</p>
           </li>
         )}
         {ctx.isLoggedIn && (
           <li>
-            <a>Admin</a>
+            <p>Admin</p>
           </li>
         )}
         {ctx.isLoggedIn && (
